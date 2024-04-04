@@ -1,41 +1,42 @@
 
-# Public Transportation Management System
+# Public Transportation Management System (Metro)
 
 ## Introduction
 
-This C++ program is a Public Transportation Management System that allows users to manage stations, routes, and fares for a transportation network. It provides functionality for adding stations, defining routes between stations, calculating fares, and performing various operations on the transportation network.
+`metro.cpp` is a C++ program representing a Public Transportation Management System designed specifically for managing metro stations, routes, and fares. It provides users with the ability to manipulate the transportation network, calculate fares, and identify important stations.
 
 ## Features
 
-- **User Input or Static Input**: Users can choose to input data manually or use pre-defined data for the transportation network.
+- **User Input or Static Input**: The program offers the flexibility for users to input data manually or utilize pre-defined data for the transportation network.
 
-- **Graph Operations**: The program supports basic graph operations such as Breadth-First Search (BFS), Depth-First Search (DFS), and printing the adjacency list.
+- **Graph Operations**: Basic graph operations such as Breadth-First Search (BFS), Depth-First Search (DFS), and printing the adjacency list are supported.
 
-- **Modification of Graph**: Users can modify the transportation network by adding or removing stations, updating routes, or adjusting fares.
+- **Graph Modification**: Users have the capability to modify the transportation network by adding or removing stations, updating routes, or adjusting fares.
 
-- **Fare Calculation**: The program can calculate fares based on the shortest path between two stations using Dijkstra's algorithm.
+- **Fare Calculation**: Using Dijkstra's algorithm, the program can calculate fares based on the shortest path between two stations.
 
-- **Important Stations Identification**: It identifies important stations in the transportation network using the Articulation Point algorithm.
+- **Important Stations Identification**: The program identifies important stations within the transportation network using the Articulation Point algorithm.
 
 ## Usage
 
-1. **Compile**: Compile the program using a C++ compiler.
+1. **Compile**: Compile the `metro.cpp` program using a C++ compiler.
    ```bash
-   g++ main.cpp -o transportation_system
+   g++ metro.cpp -o metro
    ```
 
 2. **Run**: Execute the compiled program.
    ```bash
-   ./transportation_system
+   ./metro
    ```
 
-3. **Choose Input Mode**: Select either user input or static input for defining the transportation network.
+3. **Input Mode Selection**: Choose either user input or static input mode for defining the transportation network.
 
-4. **Perform Operations**: Choose from various operations such as BFS, DFS, modifying the graph, calculating fares, or identifying important stations.
+4. **Operations**: Select from various operations such as BFS, DFS, modifying the graph, calculating fares, or identifying important stations.
 
-5. **Exit**: Exit the program when done.
+5. **Exit**: Terminate the program when finished.
 
 ## Requirements
 
 - C++ compiler (e.g., g++)
 - Standard Template Library (STL)
+
